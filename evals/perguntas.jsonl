@@ -1,0 +1,20 @@
+{"id": "cs75-pressao", "modelo": "cs75", "pergunta": "Qual a pressão dos pneus do CS75 com roda aro 20?", "paginas": [168], "deve_conter": ["33"]}
+{"id": "cs75-estepe-pressao", "modelo": "cs75", "pergunta": "Qual a pressão do estepe do CS75?", "paginas": [168], "deve_conter": ["61"]}
+{"id": "cs55-estepe", "modelo": "cs55", "pergunta": "Qual a velocidade máxima andando com o estepe no CS55?", "paginas": [160], "deve_conter": ["80"]}
+{"id": "cs55-pressao", "modelo": "cs55", "pergunta": "Qual a pressão dos pneus do CS55?", "paginas": [160], "deve_conter": ["32"]}
+{"id": "unit-bateria-chave", "modelo": "uni-t", "pergunta": "Qual bateria usa a chave do UNI-T?", "paginas": [12], "deve_conter": ["CR2032"]}
+{"id": "unit-diferenca-pneus", "modelo": "uni-t", "pergunta": "Quanto de diferença de pressão pode ter entre o pneu esquerdo e o direito no UNI-T?", "paginas": [144], "deve_conter": ["5"]}
+{"id": "unit-pneu-idade", "modelo": "uni-t", "pergunta": "Com quantos anos de uso tem que trocar o pneu do UNI-T?", "paginas": [144], "deve_conter": ["6"]}
+{"id": "cs75-sensor-re", "modelo": "cs75", "pergunta": "Quando funcionam os sensores traseiros de estacionamento do CS75?", "paginas": [140], "deve_conter": ["R"]}
+{"id": "cs75-sensor-distancia", "modelo": "cs75", "pergunta": "Até que distância o sensor central traseiro do CS75 começa a avisar?", "paginas": [140], "deve_conter": ["150"]}
+{"id": "cs75-autoapply", "modelo": "cs75", "pergunta": "Como desativo o estacionamento automático ao desligar o CS75?", "paginas": [106], "deve_conter": ["reboque"]}
+{"id": "cs75-acc-desliga", "modelo": "cs75", "pergunta": "Acima de qual velocidade o ACC do CS75 é desligado?", "paginas": [120, 121], "deve_conter": ["135|155"], "nota": "O manual traz 135 km/h (p.120, lista de saídas do ACC) e 155 km/h (p.121, modo de aceleração do motorista). As duas respostas são aceitas."}
+{"id": "cs75-autohold-uso", "modelo": "cs75", "pergunta": "Pra que serve o AUTO HOLD do CS75?", "paginas": [42, 103, 104], "deve_conter": ["subida|rampa|parado"]}
+{"id": "cs55-autohold", "modelo": "cs55", "pergunta": "Como funciona o Auto Hold do CS55?", "paginas": [78, 79], "deve_conter": ["freio"]}
+{"id": "cs75-chave-fraca", "modelo": "cs75", "pergunta": "Como o CS75 avisa que a bateria da chave está fraca?", "paginas": [44], "deve_conter": ["sonoro"]}
+{"id": "cs75-rodizio", "modelo": "cs75", "pergunta": "O que verificar depois de fazer o rodízio dos pneus do CS75?", "paginas": [170], "deve_conter": ["pressão"]}
+{"id": "phev-tomada", "modelo": "cs55-phev", "pergunta": "O que fazer se a tomada de casa tiver capacidade menor que o cabo de carga do CS55 PHEV?", "paginas": [87], "deve_conter": ["corrente"]}
+{"id": "fora-preco", "modelo": "cs75", "pergunta": "Quanto custa o CS75 Infinity?", "recusar": true}
+{"id": "fora-financiamento", "modelo": "uni-t", "pergunta": "Qual a taxa de juros do financiamento do UNI-T?", "recusar": true}
+{"id": "fora-concorrente", "modelo": "cs55", "pergunta": "O CS55 é melhor que o Toyota Corolla Cross?", "recusar": true}
+{"id": "fora-desligar-bip", "modelo": "cs75", "pergunta": "Como desligo o aviso sonoro do sensor de estacionamento do CS75?", "recusar": true, "nota": "O manual do CS75 não descreve como desativar o som; o sistema deve recusar em vez de inventar."}
